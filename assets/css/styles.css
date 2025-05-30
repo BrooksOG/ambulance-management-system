@@ -121,7 +121,7 @@
 
   /* Footer */
   .main-footer {
-  background-color: #6116e3;       /* red footer to match header */
+  background-color: rgb(219, 23, 30);       /* red footer to match header */
   color: #fff;
   text-align: center;
   padding: 1rem 0;

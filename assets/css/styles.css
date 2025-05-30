@@ -1,0 +1,130 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #222;
+  }
+  
+  /* Layout Containers */
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Header */
+  .main-header {
+    background-color:rgb(219, 23, 30);       /* bright red bar */
+    color: #fff;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.75rem 1rem;
+  }
+  .brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav-links a {
+    color: #fff;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #555;           /* solid dark gray */
+    color: white;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .btn-primary {
+    background-color: #d32f2f;       /* same red as header */
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s;
+  }
+  .btn-primary:hover {
+    background-color: #b71c1c;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  .btn-primary {
+    background-color: #d32f2f;
+    color: white;
+  }
+  .btn-primary:hover {
+    background-color: #b71c1c;
+  }
+  
+  /* Info Sections */
+  .info-section {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .area-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+  .badge {
+    background: #d32f2f;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+  }
+
+  /* Footer */
+  .main-footer {
+  background-color: #6116e3;       /* red footer to match header */
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
+  

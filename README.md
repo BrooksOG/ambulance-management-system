@@ -1,7 +1,7 @@
 # Ambulance management system
 
 ## Overview
-The Ambulance Management System is a web-based application developed for Clinics to streamline emergency medical services. It facilitates real-time incident reporting, ambulance assignment, status tracking, inventory management, and automated dispatch processes. Built as a school project, the system prioritizes functionality for public users, dispatchers, paramedics, and admins, ensuring efficient emergency response without advanced security features.
+The Ambulance Management System is a web-based application developed for Hospitals to streamline emergency medical services. It facilitates real-time incident reporting, ambulance assignment, status tracking, inventory management, and automated dispatch processes. Built as a school project, the system prioritizes functionality for public users, dispatchers, paramedics, and admins, ensuring efficient emergency response without advanced security features.
 
 ## Features
 - **Incident Reporting**: Public users can submit emergency incidents with details like location and description.
